@@ -38,6 +38,7 @@ Command | Argument(s) | Example | Description
 **!fps show** | playername, dps, healers, tanks, ranged, classname| !fps show Memeboy | Takes the same arguments as above and instead unhides them.
 **!fps list** |  | !fps list |  Prints a list of characters/classes/roles currently hidden by *hide* command to chat.
 **!fps fireworks** | None | !fps fireworks | Enables/Disables hiding of firework entities in open world.
+**!fps servants** | None | !fps servants | Enables/Disables hiding of Pets and Partners.
 **!fps summons** | empty, mine | !fps summons | Enables/Disables hiding of  summoned entities(gunner turrets, mystic thralls, etc) fps summons mine hides your own summons
 **!fps skill** | blacklist, class <classname>  | !fps skill class lancer | `black` toggles the skill blacklist feature, `class <classname>`toggles displaying of ALL skills for that class
 **!fps npc** | None | !fps npc | Enables/Disables hiding of ALL NPCs within the npc blacklist
@@ -51,8 +52,8 @@ Command | Argument(s) | Example | Description
 *  To get projectile skill IDs you will have to log them yourself, I will add something that does this for you in a later update
   
 ## Update Log
-* Rewrote the entire mod, again.
-* 
+* Moved to BigInt
+* Fixed some other stuff idklol
 ## Work In Progress:
 Various GUI improvements, fix for mount stuff, projectile and effect lists, fix formatting.
 
